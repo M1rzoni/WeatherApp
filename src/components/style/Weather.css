@@ -1,0 +1,196 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-container {
+  height: 500px;
+  width: 500px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.2)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.5));
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  width: 100vh;
+  height: 90vh;
+}
+
+.weather-container input {
+  margin-top: 2rem;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 75%;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.2)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.9));
+}
+
+.weather-container input::placeholder {
+  color: black;
+  font-weight: 500;
+  font-weight: 400;
+  font-style: italic;
+  
+
+}
+
+.description{
+  font-size: 20px !important;
+  color: black !important;
+}
+
+.weather-container p {
+  margin-top: 2rem;
+  color: white;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.temp{
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.main-image {
+  width: 120px;
+  height: 90px;
+  margin-top: 1rem;
+  object-fit: cover;
+  -webkit-filter: contrast(1.25);
+  overflow: hidden;
+  filter: contrast(1.25);
+  image-rendering:optimizeQuality;
+}
+
+.main-div-show{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  margin-left: 7rem;
+}
+
+.wind-container {
+  margin-top: 2rem;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  width: 10rem;
+  align-items: center;
+}
+
+.wind-image {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  margin-top: 4rem; 
+  align-content: center;
+}
+
+.wind-container p{
+  font-size: 25px;
+}
+
+.kmh{
+  font-size: 20px;
+}
+
+.windspeed{
+  font-size: 20px !important;
+}
+
+.feelsLike-container{
+  width: 10rem;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  margin-top: 2rem !important;
+}
+
+.feelsLike-container img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  margin-top: 4rem; 
+}
+
+.feelsLike-container p{
+  font-size: 20px;
+}
+
+.feel{
+  font-size: 25px !important;
+}
+.humidity-container{
+  margin-top: 2rem !important;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  width: 10rem;
+
+}
+
+.humidity-container img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  margin-top: 4rem; 
+}
+
+.humidity-container p{
+  font-size: 20px;
+}
+
+.humidity{
+  font-size: 25px !important;
+}
+
+.percent{
+  font-size: 20px !important; 
+}
+
+.main-sunset{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  place-items: center;
+}
+
+.sunset-container{
+  width: 5rem;
+  margin:0 auto;
+  margin-top: 2rem !important;
+}
+
+.sunset-container p {
+  font-size: 15px !important;
+}
+.sunset-container img{
+  width: 30px;
+  margin-bottom: -15px;
+}
+
+.sun{
+  height: 0px;
+}
+
+.sunrise-container{
+  width: 10rem;
+  margin-top: 2rem !important;
+}
+
+.sunrise-container p {
+  font-size: 15px !important;
+}
+
+.sunrise-container img{
+  width: 35px;
+  margin-bottom: -18px;
+}
+
+.sur{
+  height: 0px;
+}
